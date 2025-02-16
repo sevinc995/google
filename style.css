@@ -1,13 +1,22 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+header {
+  diplay: inline-block;
+  background-color: #e7e5e5;
+  border: 2px solid #d6d2d2;
 }
-
-a:hover {
-  color: black;
+header .icon {
+  display: inline-block;
 }
-/*# sourceMappingURL=style.css.map */
+header .icon i {
+  transform: translate(40px);
+  padding: 10px;
+}
+header input {
+  width: 700px;
+  border-radius: 20px;
+  padding: 0, 20px;
+}/*# sourceMappingURL=style.css.map */
